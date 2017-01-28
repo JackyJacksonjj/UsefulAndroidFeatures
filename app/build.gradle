@@ -22,5 +22,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:appcompat-v7:25.1.0'\
+    //For view-to-pdf export
+    compile 'com.itextpdf:itextg:5.5.9'
 }
